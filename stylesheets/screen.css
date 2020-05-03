@@ -107,8 +107,14 @@ body .info .sub-title {
   margin: 20px auto;
   max-width: 800px;
 }
+/* line 48, ../sass/screen.scss */
+body video {
+  margin: 20px auto;
+  width: 700px;
+  height: 300px;
+}
 
-/* line 50, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 footer {
   font-family: 'Open Sans', sans-serif;
 }
