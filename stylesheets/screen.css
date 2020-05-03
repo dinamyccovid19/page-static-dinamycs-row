@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 /* line 5, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,4 +66,49 @@ a img {
 /* line 116, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 13, ../sass/screen.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 10px;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+/* line 19, ../sass/screen.scss */
+body .info {
+  background-image: linear-gradient(to right, #76AD06, #00975c, #00bc73);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 39, 19, 0.24);
+}
+/* line 24, ../sass/screen.scss */
+body .info .title {
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+/* line 36, ../sass/screen.scss */
+body .info .sub-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.82px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* line 50, ../sass/screen.scss */
+footer {
+  font-family: 'Open Sans', sans-serif;
 }
